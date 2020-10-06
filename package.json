@@ -1,16 +1,31 @@
 {
-  "name": "simple-socket.io-chat-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "socket-server.js",
+  "name": "simple-socketio-chat-app",
+  "version": "1.0.1",
+  "description": "Realtime chat app with rooms, created with Socket.io",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./socket-server.js"
+    "start": "node server",
+    "dev": "nodemon server"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travelingaries/Simple-Socket.io-Chat-App.git"
+  },
+  "keywords": [
+    "socket.io"
+  ],
+  "author": "TravelingAries",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travelingaries/Simple-Socket.io-Chat-App/issues"
+  },
+  "homepage": "https://github.com/travelingaries/Simple-Socket.io-Chat-App#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "moment": "^2.29.0",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
